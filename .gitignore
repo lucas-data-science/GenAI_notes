@@ -1,8 +1,7 @@
 /refs
 /doc
 /data
-/ai
-/book
+/ai 
 AGENT*
 DECISIONS*
 TASK*

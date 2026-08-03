@@ -1,0 +1,6 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Fundamentos
+    chapters:
+      - file: contents/deep_learning/01_deep_learning.ipynb

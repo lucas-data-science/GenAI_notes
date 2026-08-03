@@ -1,0 +1,23 @@
+title: IA Generativa para Data Science — Notas de Estudo
+author: ""
+logo: ""
+
+execute:
+  execute_notebooks: cache
+  timeout: 600
+
+# As pastas abaixo ainda são stubs (texto simples salvo com extensão .ipynb,
+# não notebooks JSON válidos) — excluídas do build até terem conteúdo real.
+exclude_patterns:
+  - contents/nlp
+  - contents/rnn_lstm
+  - contents/transformers
+  - contents/llm
+  - contents/rag
+  - contents/langchain
+  - contents/agents
+  - contents/mcp
+  - contents/openai_api
+  - contents/fastapi
+  - contents/docker
+  - contents/observabilidade
