@@ -1,0 +1,6 @@
+PWD /run/user/1000/gvfs/google-drive:host=gmail.com,user=lucasufsj,prefix=%2F0APeRh-yP-J3RUk9PVA/0APeRh-yP-J3RUk9PVA/1ELntau8MhOlljFYRdtSia3F-Zp4Y99kO/1IfkXtBSf09PM1iVT6YtrlwkNxGgAq4yo
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT main.tex
