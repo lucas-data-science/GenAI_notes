@@ -1,4 +1,4 @@
-# IA Generativa para Data Science — Notas de Estudo
+# IA Generativa para Data Science, *from Deep Learning to Large Language Models* — Notas de Estudo
 
 Repositório de estudos baseado no plano de 13 fases para LLMs e IA Generativa aplicada
 a Data Science. O conteúdo é desenvolvido em **Jupyter notebooks** e consolidado em
@@ -43,7 +43,7 @@ a Data Science. O conteúdo é desenvolvido em **Jupyter notebooks** e consolida
 
 ## Projetos de portfólio
 
-| Projeto | Após a fase |
+| Projeto | Após a fase X |
 |---------|-------------|
 | Classificador TF-IDF vs. embeddings | Fase 2 |
 | Modelo de NLP com Transformer | Fase 5 |
