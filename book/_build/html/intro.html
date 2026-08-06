@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Fase 1 — Fundamentos de Deep Learning" href="contents/deep_learning/01_deep_learning.html" />
+    <link rel="next" title="spaCy: Processamento de Linguagem Natural em Português" href="contents/nlp/01_spacy.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,9 +174,9 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Fundamentos</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Processamento de Linguagem Natural</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="contents/deep_learning/01_deep_learning.html">Fase 1 — Fundamentos de Deep Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contents/nlp/01_spacy.html">spaCy: Processamento de Linguagem Natural em Português</a></li>
 </ul>
 
     </div>
@@ -302,7 +302,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -318,6 +320,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fases">Fases</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -329,9 +339,24 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="ia-generativa-para-data-science-notas-de-estudo">
 <h1>IA Generativa para Data Science — Notas de Estudo<a class="headerlink" href="#ia-generativa-para-data-science-notas-de-estudo" title="Link to this heading">#</a></h1>
-<p>Livro gerado com Jupyter Book a partir dos notebooks em <code class="docutils literal notranslate"><span class="pre">contents/</span></code>. Cada capítulo
-corresponde a uma fase do plano de estudos (ver <code class="docutils literal notranslate"><span class="pre">README.md</span></code> na raiz do projeto).</p>
-<p>Este book substitui a rota de consolidação manual em <code class="docutils literal notranslate"><span class="pre">tex/</span></code> (ver <code class="docutils literal notranslate"><span class="pre">DECISIONS.md</span></code>).</p>
+<p>Notas de estudo sobre IA Generativa e LLMs aplicadas a Data Science, organizadas em
+fases. Cada capítulo é um Jupyter notebook executável, em <code class="docutils literal notranslate"><span class="pre">contents/&lt;fase&gt;/</span></code>.</p>
+<p>O conteúdo segue um plano de 13 fases, dos fundamentos de Deep Learning até
+observabilidade e deploy de aplicações com LLMs. Este site publica as fases já
+concluídas.</p>
+<section id="fases">
+<h2>Fases<a class="headerlink" href="#fases" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Processamento de Linguagem Natural</strong> — spaCy (tokenização, POS tagging, NER,
+vetores de palavras, matcher, displaCy), NLTK, classificação de texto, análise de
+sentimentos, LSTMs, Transformers e BERT, modelagem de tópicos e NLP com Spark.</p></li>
+<li><p><strong>Fundamentos de Deep Learning</strong> — perceptron, MLP, backpropagation, funções de
+ativação e perda, otimização (SGD, Adam), regularização (L2, Dropout, BatchNorm) e
+introdução a features tabulares. <em>(em reconstrução)</em></p></li>
+</ol>
+<p>Demais fases (RNN/LSTM, Transformers, LLMs, RAG, agentes, MCP, APIs, deploy) serão
+adicionadas conforme concluídas.</p>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -367,11 +392,11 @@ corresponde a uma fase do plano de estudos (ver <code class="docutils literal no
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="contents/deep_learning/01_deep_learning.html"
+       href="contents/nlp/01_spacy.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Fase 1 — Fundamentos de Deep Learning</p>
+        <p class="prev-next-title">spaCy: Processamento de Linguagem Natural em Português</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -381,6 +406,21 @@ corresponde a uma fase do plano de estudos (ver <code class="docutils literal no
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fases">Fases</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

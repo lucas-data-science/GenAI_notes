@@ -1,8 +1,59 @@
-/refs
-/doc
-/data
-/ai 
-/Cursos
-AGENT*
-DECISIONS*
+# ============================================
+# Artefatos de build (sempre descartáveis)
+# ============================================
+
+# Jupyter Book
+# book/_build/
+
+# LaTeX (mantém .tex; ignora saídas de compilação)
+tex/*.aux
+tex/*.fdb_latexmk
+tex/*.fls
+tex/*.log
+tex/*.out
+tex/*.synctex.gz
+tex/*.toc
+tex/*.pdf
+tex/pdflatex*.fls
+tex/ 
+/Curso_NLP
+
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ============================================
+# Conteúdo de terceiros / pesado
+# (não redistribuir em repositório público)
+# ============================================
+
+# Referências (papers arXiv: PDFs + fontes LaTeX) — ver refs/README.md
+refs/
+
+# Documentos de terceiros
+doc/
+
+# Dados brutos (datasets derivados de curso externo) — ver data/manifests/
+data/raw/
+
+# ============================================
+# Sistema
+# ============================================
+.DS_Store
+Thumbs.db
+
 TASK*
+DECISION*
+AGENT*
+
+/data
+/ai
+
+/tex

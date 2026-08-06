@@ -1,4 +1,4 @@
-# IA Generativa para Data Science, *from Deep Learning to Large Language Models* — Notas de Estudo
+# IA Generativa para Data Science — Notas de Estudo
 
 Repositório de estudos baseado no plano de 13 fases para LLMs e IA Generativa aplicada
 a Data Science. O conteúdo é desenvolvido em **Jupyter notebooks** e consolidado em
@@ -22,6 +22,56 @@ a Data Science. O conteúdo é desenvolvido em **Jupyter notebooks** e consolida
 | 12 | Docker e deploy | Containers, Compose, orquestração |
 | 13 | Observabilidade, avaliação e guardrails | Tracing, métricas, cache, fallback |
 
+## Estrutura do repositório
+
+```
+.
+├── contents/                # Jupyter notebooks por fase
+│   ├── deep_learning/       # Fase 1
+│   ├── nlp/                 # Fase 2
+│   ├── rnn_lstm/            # Fase 3
+│   ├── transformers/        # Fase 4
+│   ├── llm/                 # Fase 5
+│   ├── rag/                 # Fase 6
+│   ├── langchain/           # Fase 7
+│   ├── agents/              # Fase 8
+│   ├── mcp/                 # Fase 9
+│   ├── openai_api/          # Fase 10
+│   ├── fastapi/             # Fase 11
+│   ├── docker/              # Fase 12
+│   └── observabilidade/     # Fase 13
+├── scripts/                 # Scripts auxiliares e de plotagem
+├── tex/                     # Consolidação em LaTeX
+│   ├── main.tex
+│   └── figures/
+├── data/                    # Dados usados nos notebooks
+│   ├── raw/
+│   ├── interim/
+│   ├── processed/
+│   ├── reference/
+│   └── manifests/
+├── ai/                      # Políticas, skills e roles para agentes
+├── docs/                    # Documentação complementar
+├── refs/                    # Referências e papers
+├── results/                 # Resultados de experimentos e treinamentos
+└── figures/                 # Figuras gerais do projeto
+```
+
+## Como usar
+
+1. Siga as fases em ordem — cada fase depende do conhecimento acumulado das anteriores.
+2. Execute os notebooks em `contents/<fase>/`.
+3. Ao final de cada fase, o conteúdo relevante é consolidado em `tex/main.tex`.
+4. Scripts auxiliares e de plotagem ficam em `scripts/`.
+5. Figuras geradas para o LaTeX são salvas em `tex/figures/`.
+
+## Regras do projeto
+
+- **Separação**: código de cálculo, dados e figuras são mantidos independentes.
+- **Reprodutibilidade**: notebooks salvam resultados intermediários; scripts de figura leem apenas dados já salvos.
+- **LaTeX**: capítulos integrados ao `main.tex`, sem fragmentação excessiva. Uma única pasta `figures/` dentro de `tex/`.
+- **Idioma**: código e gráficos em inglês (padrão de publicação); notas e documentação em português.
+- **Agentes**: decisões substantivas exigem consulta ao autor. Alterações permanentes são registradas em `TASK_LOG.md`.
 
 ## Trilha essencial (15 recursos)
 
@@ -43,7 +93,7 @@ a Data Science. O conteúdo é desenvolvido em **Jupyter notebooks** e consolida
 
 ## Projetos de portfólio
 
-| Projeto | Após a fase X |
+| Projeto | Após a fase |
 |---------|-------------|
 | Classificador TF-IDF vs. embeddings | Fase 2 |
 | Modelo de NLP com Transformer | Fase 5 |

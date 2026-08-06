@@ -1,0 +1,14 @@
+# Saída de build do Jupyter Book (regenerável)
+_build/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Sistema
+.DS_Store
+Thumbs.db

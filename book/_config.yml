@@ -9,7 +9,7 @@ execute:
 # As pastas abaixo ainda são stubs (texto simples salvo com extensão .ipynb,
 # não notebooks JSON válidos) — excluídas do build até terem conteúdo real.
 exclude_patterns:
-  - contents/nlp
+  - contents/deep_learning
   - contents/rnn_lstm
   - contents/transformers
   - contents/llm
