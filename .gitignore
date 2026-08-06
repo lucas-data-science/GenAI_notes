@@ -15,7 +15,7 @@ tex/*.synctex.gz
 tex/*.toc
 tex/*.pdf
 tex/pdflatex*.fls
-tex/ 
+tex/*
 /Curso_NLP
 
 
